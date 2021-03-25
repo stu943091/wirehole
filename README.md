@@ -1,14 +1,6 @@
 ## What is this?
 WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound). 
 
-## Prerequisites:
-
-- ☁ If using a cloud provider:
-    - You need to allow ingress to port `51820`
-
-##### Optional Fully Automated Deployment on Oracle Cloud:
-  - https://medium.com/@devinjaystokes/automating-the-deployment-of-your-forever-free-pihole-and-wireguard-server-dce581f71b7
- 
 ## Author
 
 👤 **Devin Stokes**
@@ -27,6 +19,17 @@ Give a ⭐ if this project helped you!
 <a href="https://www.buymeacoffee.com/stoxe" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
  
 ---
+
+
+## Prerequisites:
+
+- ☁ If using a cloud provider:
+    - You need to allow ingress to port `51820`
+
+##### Optional Fully Automated Deployment on Oracle Cloud:
+  - https://medium.com/@devinjaystokes/automating-the-deployment-of-your-forever-free-pihole-and-wireguard-server-dce581f71b7
+ 
+
 
 ### Quickstart
 To get started all you need to do is clone the repository and spin up the containers.
