@@ -8,13 +8,13 @@ WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose 
 https://github.com/linuxserver/docker-wireguard
 
 ## github token
-`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`
+`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`
 
 ### Quickstart
 To get started all you need to do is clone the repository and spin up the containers.
 
 ```bash
-git clone https://UDICatNCHU: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@github.com/NCHU-NLP-Lab/wirehole.git
+git clone https://UDICatNCHU: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@github.com/NCHU-NLP-Lab/wirehole.git
 cd wirehole
 docker-compose up
 ```
