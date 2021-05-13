@@ -29,9 +29,9 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=America/Los_Angeles # Change to your timezone
+      - TZ=Asia/Taipei # Change to your timezone
       - SERVERPORT=51820
-      #- SERVERURL=my.ddns.net #optional - For use with DDNS (Uncomment to use)
+      - SERVERURL=140.120.13.248
       - PEERS=1 # How many peers to generate for you (clients)
       - PEERDNS=10.2.0.100 # Set it to point to pihole
       - INTERNAL_SUBNET=10.6.0.0
@@ -62,8 +62,8 @@ services:
       - 127.0.0.1
       - 10.2.0.200 # Points to unbound
     environment:
-      TZ: "America/Los_Angeles"
-      WEBPASSWORD: "" # Blank password - Can be whatever you want.
+      TZ: "Asia/Taipei"
+      WEBPASSWORD: "udiclab@720" # Blank password - Can be whatever you want.
       ServerIP: 10.1.0.100 # Internal IP of pihole
       DNS1: 10.2.0.200 # Unbound IP
       DNS2: 10.2.0.200 # If we don't specify two, it will auto pick google.
